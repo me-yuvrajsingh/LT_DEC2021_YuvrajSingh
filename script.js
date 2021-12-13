@@ -12,13 +12,14 @@ let clearSearch = document.querySelector('.close')
 
 window.onscroll = ()=>{
   sideNav.classList.remove('active-nav');
+  loginForm.classList.remove('active');
+  searchCont.classList.remove('search-active');
 
 }
 
 menuBar.addEventListener('click', ()=>{
   sideNav.classList.toggle('active-nav')
-  loginForm.classList.remove('active');
-  searchCont.classList.remove('search-active');
+
   
 })
 
