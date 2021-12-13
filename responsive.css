@@ -1,0 +1,53 @@
+@media(max-width: 800px){
+    div#menu-bar {
+        display: block;
+        border: none;
+        font-size: 30px;
+    }
+    .navbar{
+        display: none;
+    }
+    .contact-content .image {
+        display: none;
+    }
+    .contact-content form{
+        width: 100%;
+    }
+
+    .heading span {
+        font-size: 1.4rem;
+        background: rgba(54, 211, 75, 0.329);
+        color: var(--maincolor);
+        border-radius: 0.5rem;
+        padding: 0.7rem 0.7rem;
+        height: 40px;
+        width: 40px;
+    }
+    span.space {
+        display: block;
+        clear: both;
+    }
+
+
+}
+
+@media(max-width: 500px){
+
+    header{
+        padding-right: 1rem;
+    }
+
+    .logo img {
+        height: 48px;
+    }
+
+    .upper-text1 {
+        font-size: 1.9rem;
+    }
+    .upper-text2 {
+        font-size: 1.9rem;
+    }
+}
+
+
+
