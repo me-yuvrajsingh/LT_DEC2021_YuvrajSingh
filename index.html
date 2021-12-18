@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yuvraj Singh (iamyuvrajsingh678@gmail.com)">
     <title>LueurTech Software Solutions</title>
 
     <!-- fontawesome css link -->
@@ -15,8 +16,17 @@
     <link rel="stylesheet" href="responsive.css">
 </head>
 
+<!-- 
+About Developer:
+Name - Yuvraj Singh
+E-mail - iamyuvrajsingh678@gmail.com 
+-->
+
 <body>
-    <!-- header section starts here  -->
+    <!-- header section starts from here  -->
+
+
+    <!-- android navbar starts-->
     <nav class="android">
         <ul class="android-nav">
             <li class="android-main-menu-li"><a href="#home"> <i class="fa fa-home"></i> Home</a></li>
@@ -24,25 +34,26 @@
             <li class="android-main-menu-li"><a href="#contact"> <i class="fa fa-phone"></i> Contact Us</a></li>
         </ul>
     </nav>
+    <!-- android navbar ends here -->
     <div class="search">
         <input type="text" placeholder="Search here" class="search-input">
         <i class="fa fa-times close"></i>
     </div>
-    <header>
+    <header id="main-header">
 
-        <!-- logo -->
+        <!-- website's logo -->
         <div id="menu-bar" class="fas fa-bars"></div>
         <div class="logo-container">
             <div class="logo">
                 <img src="https://me-yuvrajsingh.github.io/LueurTechSoftwareSolutions/images/final-logo.png" alt="LueurTech-logo">
             </div>
         </div>
-        <!-- navbar  -->
+        <!-- main navbar (for wider screens)  -->
         <div class="navbar">
             <nav>
                 <ul class="main-menu">
                     <li class="main-menu-li"><a href="#home"> <i class="fa fa-home"></i> Home</a></li>
-                    <li class="main-menu-li"><a href="#"> <i class="fa fa-users"></i> About Us</a></li>
+                    <li class="main-menu-li"><a href="#services"> <i class="fa fa-users"></i> Services</a></li>
                     <li class="main-menu-li"><a href="#contact"> <i class="fa fa-phone"></i> Contact Us</a></li>
                 </ul>
             </nav>
@@ -61,7 +72,6 @@
 
 
         <!-- login form container  -->
-
         <div class="login-form-container">
 
             <i class="fa fa-times" id="form-close"></i>
@@ -78,10 +88,13 @@
             </form>
 
         </div>
+        <!-- login for container ends here -->
 
+
+        <!-- home section starts -->
         <section class="section1" id="home">
             <div class="image-cont">
-                <img src="https://me-yuvrajsingh.github.io/LueurTechSoftwareSolutions/images/m-1.jpg" alt="img">
+                <img src="https://me-yuvrajsingh.github.io/LueurTechSoftwareSolutions//images/m-1.jpg" alt="img">
             </div>
             <div class="content">
                 <div class="text">
@@ -92,12 +105,15 @@
                         </p>
                     </div>
                     <br>
-                    <div class="lower-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque a dolores,
-                        nemo blanditiis impedit perferendis.</div>
+                    <div class="lower-text">Creativity Is Thinking Up New Things Innovation Is Doing New Things And We Beleive In Innovation With Creativity</div> <!--dummy text--> 
                 </div>
                 <button class="btn"> <a href="#services">Explore Now</a></button>
             </div>
         </section>
+        <!-- home section ends here -->
+
+
+        <!-- services section starts -->
         <section class="section2" id="services">
             <div class="container">
                 <div class="title">
@@ -119,28 +135,32 @@
                 <div class="services-main-container">
                     <div class="services-container">
                         <p class="heading">software development</p>
-                        <p class="desc">We can build any software according to your wish at a very cheaper price. We are
-                            having highly skilled programmers mastered in various programming languages.</p>
+                        <i class="fas fa-laptop-code services-icon"></i>
+                        <p class="desc">We are having highly skilled programmers mastered in various programming languages and having a good period of experience.</p> <!--dummy text-->
                         <button class="btn">Click Here</button>
                     </div>
                     <div class="services-container">
                         <p class="heading">Web development</p>
-                        <p class="desc">We can build any kind of websites and web-apps according to your wish at a very
-                            cheaper price. We are having highly skilled full-stack developers mastered in various
-                            programming frameworks.</p>
+                        <i class="fas fa-tv services-icon"></i>
+                        <p class="desc">We have built many websites for various companies at a comparitively cheaper price. Our Developers are highly skilled and well experienced</p> <!--dummy text-->
                         <button class="btn">Click Here</button>
                     </div>
                     <div class="services-container">
                         <p class="heading">Internship</p>
+                        <i class="fas fa-money services-icon"></i>
                         <p class="desc">Students looking for an intership can contact us. We provide paid internships
                             alongwith LOR and Certificate. Intrested students can click on below button for internship.
-                        </p>
+                        </p> <!--dummy text-->
                         <button class="btn">Click Here</button>
                     </div>
                 </div>
             </div>
 
         </section>
+        <!-- services section end here -->
+
+
+        <!-- contact section starts here -->
         <section class="section3 container" id="contact">
             <h1 class="heading">
                 <span>c</span>
@@ -173,8 +193,10 @@
 
             </div>
         </section>
+        <!-- contact section starts here -->
 
-        <!-- brand section  -->
+
+        <!-- brand section starts here  -->
         <section class="brand-cont">
             <h1 class="heading">
                 <span>o</span>
@@ -203,60 +225,69 @@
                         <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
                     </div>
                 </div>
-            
+
             </div>
         </section>
+        <!-- branding section ends here -->
 
-            <!-- footer section  -->
 
-            <footer class="footer ftr-section">
 
-                <div class="box-container">
+        <!-- footer section starts  -->
+        <footer class="footer ftr-section">
 
-                    <div class="box">
-                        <img src="https://me-yuvrajsingh.github.io/LueurTechSoftwareSolutions/images/final-logo.png" alt="">
-                        <p>LulerTech Software Solutions is a Bengaluru based company provides various services like web
-                            development, software development, and also we are giving paid internship to students. We
-                            provide new technology to various buisnesses.</p>
-                    </div>
-                    <div class="box">
-                        <h3>quick links</h3>
-                        <a href="#home"><i class="fa fa-home"></i> home</a>
-                        <a href="#"> <i class="fa fa-users"></i> About Us</a>
-                        <a href="#contact"> <i class="fa fa-phone"></i> Contact Us</a>
-                        <a href="#services"> <i class="fa fa-phone"></i> Services</a>
-                    </div>
-                    <div class="box">
-                        <h3>Get In touch</h3>
-                        <a href="#"> <i class="fa fa-phone"></i> +91-9902730881/991</a>
-                        <a href="mailto:contact@lueurtech.com"> <i class="fa fa-envelope"></i> contact@lueurtech.com</a>
-                        <a href="#"> <i class="fas fa-map-marker-alt"></i> #133, vidyasagar layout, saraipalya, Dr.SRK nagar post,
-                            Banglore-560077</a>
-                    </div>
-                    <div class="box">
-                        <h3>follow us</h3>
-                        <a href="#"><i class="fa fa-facebook-f"></i> facebook</a>
-                        <a href="#"><i class="fa fa-instagram"></i> instagram</a>
-                        <a href="#"><i class="fa fa-twitter"></i> twitter</a>
-                        <a href="#"><i class="fa fa-github"></i> Github</a>
-                        <a href="#"><i class="fa fa-linkedin"></i> linkedin</a>
-                        <a href="#"><i class="fa fa-youtube"></i> YouTube</a>
-                    </div>
+            <div class="box-container">
 
+                <div class="box">
+                    <img src="https://me-yuvrajsingh.github.io/LueurTechSoftwareSolutions//images/final-logo.png" alt="">
+                    <p>LulerTech Software Solutions is a Bengaluru based company provides various services like web
+                        development, software development, and also we are giving paid internship to students. We
+                        provide new technology to various buisnesses.</p>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#home"><i class="fa fa-home"></i> home</a>
+                    <a href="#"> <i class="fa fa-users"></i> About Us</a>
+                    <a href="#contact"> <i class="fa fa-phone"></i> Contact Us</a>
+                    <a href="#services"> <i class="fa fa-phone"></i> Services</a>
+                </div>
+                <div class="box">
+                    <h3>Get In touch</h3>
+                    <a href="#"> <i class="fa fa-phone"></i> +91-9902730881/991</a>
+                    <a href="mailto:contact@lueurtech.com"> <i class="fa fa-envelope"></i> contact@lueurtech.com</a>
+                    <a href="#"> <i class="fas fa-map-marker-alt"></i> #133, vidyasagar layout, saraipalya, Dr.SRK nagar
+                        post,
+                        Banglore-560077</a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#"><i class="fa fa-facebook-f"></i> facebook</a>
+                    <a href="#"><i class="fa fa-instagram"></i> instagram</a>
+                    <a href="#"><i class="fa fa-twitter"></i> twitter</a>
+                    <a href="#"><i class="fa fa-github"></i> Github</a>
+                    <a href="#"><i class="fa fa-linkedin"></i> linkedin</a>
+                    <a href="#"><i class="fa fa-youtube"></i> YouTube</a>
                 </div>
 
-                <div class="hr"></div>
+            </div>
 
-                <h1 class="credit"> Created by <span> <a href="https://github.com/me-yuvrajsingh/"
-                            target="_blank">Yuvraj
-                            Singh</a> </span> | &copy; All Rights Reserved </h1>
+            <div class="hr"></div>
 
-            </footer>
+            <h1 class="credit"> Created by <span> <a href="https://github.com/me-yuvrajsingh/" target="_blank">Yuvraj
+                        Singh</a> </span> | &copy; All Rights Reserved </h1>
+
+        </footer>
+        <!-- footer section ends here  -->
 
     </main>
 
 
     <script src="script.js"></script>
 </body>
+
+<!-- 
+About Developer:
+Name - Yuvraj Singh
+E-mail - iamyuvrajsingh678@gmail.com 
+-->
 
 </html>
