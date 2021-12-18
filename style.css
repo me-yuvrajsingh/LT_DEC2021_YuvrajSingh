@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
 :root{
     --maincolor: #1c9493;
     --font-size: 22px;
@@ -13,12 +16,13 @@
     outline: none; border:none;
     text-decoration: none;
     transition: all .2s linear;
+    font-family: 'Spline Sans', sans-serif;
 }
 
 html{
     /* font-size: 62.5%; */
     overflow-x: hidden;
-    scroll-padding-top: 60px;
+    /* scroll-padding-top: 60px; */
     scroll-behavior: smooth;
   }
 
@@ -81,7 +85,7 @@ li.android-main-menu-li:hover {
     height: fit-content;
     width: 100vw;
     position: fixed;
-    top: 0;
+    top: -75px;
     display: flex;
     align-items: center;
     box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
@@ -150,6 +154,7 @@ header{
     position: fixed;
     top: 0; right: 0; left: 0;
     padding: 0 10px;
+    transition: all 0.5s linear;
 }
 .btn a {
     color: var(--maincolor);
@@ -359,6 +364,7 @@ section.section1 {
 }
 .upper-text2{
     font-size: 3.5rem;
+    font-family: 'Font Awesome 5 Free';
 }
 .upper-text2 span{
     color: var(--maincolor);
@@ -417,7 +423,7 @@ button.btn:hover{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 70vh;
+    height: 81vh;
     color: black;
     padding: 23px;
     margin: 10px 10px;
@@ -429,6 +435,9 @@ button.btn:hover{
 .services-container:hover{
     box-shadow: 6px 9px 11px 6px rgba(0, 0, 0, 0.6);
 }
+.services-container:hover > .services-icon{
+    color: var(--maincolor);
+}
 h3.services {
     margin: 20px auto;
     font-size: 3rem;
@@ -437,10 +446,20 @@ h3.services {
 p.heading {
     font-size: 2rem;
     font-weight: bolder;
+    padding-top: 2.5rem;
+    padding-bottom: 0;
 }
+
+/* services-icon  */
+.services-icon {
+    font-size: 4rem;
+    padding: 2.5rem 0;
+}
+
 
 p.desc {
     font-size: 1.2rem;
+    text-transform: none;
 }
 
 .contact-content {
@@ -583,6 +602,7 @@ h1.credit {
     font-size: 1.3rem;
     margin-bottom: 1rem;
     padding: 2px 20px;
+    font-family: 'Tajawal', sans-serif;
 }
 
 .credit a {
